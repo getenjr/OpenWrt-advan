@@ -17,7 +17,7 @@ env:
   FIRMWARE_TAG: ROOTFS_MINI
   OPENWRT_RELEASE: true
   OPENWRT_TAG: ARMv8_MINI
-  TZ: Asia/Shanghai
+  TZ: Asia/Jakarta
 
 jobs:
   Build:
@@ -272,7 +272,7 @@ jobs:
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}
           - 🌐 默认地址: 192.168.1.1
-          - 🔑 默认密码: password
+          - 🔑 默认密码: 1111
           ### 🍻 安装与更新
           - 用插件安装: 系统 → 晶晨宝盒 → 安装 OpenWrt → 选择型号 → 安装
           - 用命令安装: U盘启动成功后输入命令 `openwrt-install-amlogic` 按照英文提示写入到 emmc
